@@ -1,14 +1,15 @@
 /* =====================================================
-   뇌웃음365 — Service Worker v2.4.0
-   2026-05-16: 무료 모델 전환 (구매→증정, 마스터코드 재발급)
-   2026-07-13: 구매 모델로 재전환 (증정→구매, 가격표 추가)
+   뇌웃음365 — Service Worker v2.7.2
+   2026-07-15: 전용 개인정보처리방침(privacy.html) 신설 및
+   시작 화면에 링크 추가 (마이크 접근 고지 포함).
    ===================================================== */
 
-const CACHE_NAME = 'smile365-v2.4.0';
+const CACHE_NAME = 'smile365-v2.7.2';
 
 const ASSETS = [
   '/index.html',
   '/manifest.json',
+  '/privacy.html',
   '/Icons/icon-192x192.png',
   '/Icons/icon-512x512.png',
   'https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap'
